@@ -4,7 +4,7 @@ services:
 
 
 before_install:
-- docker build -t samansong1/webirproject_1:1.0.0
+- docker build -t samansong1/webirproject_1:1.0.0 .
 script:
     #log in to docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
