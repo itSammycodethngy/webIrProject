@@ -1,0 +1,20 @@
+{
+    "dynamic": "true",
+     "properties":{
+                    "title":{
+                        "type":"text"
+                    },
+                    "link":{
+                        "type":"text"
+                    },
+                    "company":{
+                        "type":"text"
+                    },
+                    "summary":{
+                        "type":"text"
+                    },
+                    "location":{
+                        "type":"text"
+                    }
+                }
+}
